@@ -15,54 +15,79 @@ body {
   overflow: hidden;
 }
 
-header {
-  background: linear-gradient(135deg, #0078d7, #0056a6);
+/* Navbar */
+.navbar {
+  background: #333;
   color: #fff;
-  padding: 40px 0;
-  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 3em;
+.navbar .logo {
+  font-size: 1.5em;
   font-weight: bold;
+  margin: 0;
+  display: inline-block;
 }
 
-header p {
-  margin: 10px 0 0;
-  font-size: 1.2em;
-}
-
-nav ul {
-  padding: 0;
+.navbar .nav-links {
   list-style: none;
-  margin: 20px 0 0;
+  float: right;
 }
 
-nav ul li {
+.navbar .nav-links li {
   display: inline;
   margin: 0 15px;
 }
 
-nav ul li a {
+.navbar .nav-links a {
   color: #fff;
   text-decoration: none;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #0078d7, #0056a6);
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+  margin-top: 50px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+/* Section Styles */
 .section {
   padding: 60px 0;
   background: #fff;
   margin: 20px 0;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
 }
 
 .section h2 {
+  text-align: center;
   margin-bottom: 20px;
   font-size: 2.5em;
   color: #0078d7;
+}
+
+.section ul {
+  list-style: disc;
+  margin: 20px 0;
+  padding-left: 40px;
 }
 
 .project {
@@ -71,7 +96,6 @@ nav ul li a {
   background: #f9f9f9;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: left;
 }
 
 .project h3 {
@@ -85,6 +109,7 @@ nav ul li a {
   font-size: 1.1em;
 }
 
+/* Contact Section */
 .contact-info {
   list-style: none;
   padding: 0;
@@ -101,6 +126,7 @@ nav ul li a {
   text-decoration: none;
 }
 
+/* Footer */
 footer {
   background: #333;
   color: #fff;
@@ -112,24 +138,4 @@ footer {
 footer p {
   margin: 0;
   font-size: 1em;
-}
-
-/* Image Styles */
-.profile-pic {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  object-fit: cover;
-  display: block;
-  margin: 0 auto 20px;
-}
-
-.project-img {
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-  border-radius: 10px;
-  display: block;
-  margin: 10px auto;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
