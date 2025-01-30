@@ -28,11 +28,6 @@ header h1 {
   font-weight: bold;
 }
 
-header p {
-  margin: 10px 0 0;
-  font-size: 1.2em;
-}
-
 nav ul {
   padding: 0;
   list-style: none;
@@ -73,17 +68,6 @@ nav ul li a {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.project h3 {
-  margin: 0;
-  font-size: 1.5em;
-  color: #333;
-}
-
-.project p {
-  margin: 10px 0 0;
-  font-size: 1.1em;
-}
-
 .contact-info {
   list-style: none;
   padding: 0;
@@ -106,9 +90,4 @@ footer {
   text-align: center;
   padding: 20px 0;
   margin-top: 20px;
-}
-
-footer p {
-  margin: 0;
-  font-size: 1em;
 }
